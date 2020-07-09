@@ -1,0 +1,162 @@
+body {
+    background-color: #d6f0cd;
+    background-image: linear-gradient(150deg, #9e84d3, #34dfd6);
+}
+
+#wrapper {
+    position: absolute;
+    left: 20%;
+}
+
+#searchbar {
+    display: inline-block;
+    width: 600px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+input[type=text] {
+    font-family: "Helvetica", sans-serif;
+    font-size: 17px;
+    letter-spacing: .5px;
+    padding-left: 10px;
+}
+
+#search {
+    border-radius: 15px;
+    border: 0px solid #000000;
+    width: 200px;
+    height: 20px;
+}
+
+#submit {
+    border-radius: 15px;
+    height: 20px;
+}
+
+#search-button {
+    width: 10px;
+    height: 10px; 
+}
+
+#list {
+    display: inline-block;
+    width: 710px;
+    height: 208px;
+    padding-left: 24px;
+    padding-top: 14px;
+    border-radius: 15px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    line-height: 1.2;
+}
+
+#audioplayer {
+    background-image: linear-gradient(#5c5c5c, #181818);
+    border: 0px solid #000000;
+    display: inline-block;
+    width: 735px;
+    height: 240px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+#album {
+    display: inline-block;
+    float: left;
+    margin: 14px;
+    border: 0px solid #000;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#player {
+    border: 0px solid #000;
+    float: left;
+    margin: 55px auto auto 10px;
+}
+
+#title {
+    display: inline-block;
+    float: left;
+    border: 0px solid #000;
+    width: 330px;
+    height: 20px;
+    vertical-align: middle;
+    font-family: "Helvetica", sans-serif;
+    font-size: 100%;
+    letter-spacing: .3px;
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+#time {
+    display: inline-block;
+    float: left;
+    border: 0px solid #000;
+    width: 330px;
+    height: 20px;
+    vertical-align: middle;
+    font-family: "Helvetica", sans-serif;
+    font-size: 80%;
+    letter-spacing: .3px;
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.player-buttons {
+    float: left;
+    background-color: #fff;
+    border: 0px solid #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 7px;
+}
+
+#play {
+    float: left;
+    padding: 5px;
+}
+
+#pause {
+    float: left;
+    padding: 5px;
+}
+
+#backward {
+    float: left;
+    padding: 5px;
+}
+
+#forward {
+    float: left;
+    padding: 5px;
+}
+
+#shuffle {
+    float: left;
+    padding: 5px;
+}
+
+#fastforward {
+    float: left;
+    padding: 5px;
+}
+
+#rewind {
+    float: left;
+    padding: 5px;
+}
